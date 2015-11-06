@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+    >
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"/>
+
+    <io.github.sunxu3074.bannerwithindicator.AutoScrollViewPager
+        android:id="@+id/vp_auto_activitiy_main"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:visibility="gone">
+    </io.github.sunxu3074.bannerwithindicator.AutoScrollViewPager>
+
+    <LinearLayout
+        android:id="@+id/ll_home_banner"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+    </LinearLayout>
+
+</RelativeLayout>
